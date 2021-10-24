@@ -1,0 +1,19 @@
+GENERAL NOTES
+
+* Time to Train & Test our Algorithms :
+  ---------------------------------
+
+     t0 = time()
+	 < your clf.fit() line of code >
+ 	 print "training time:", round(time()-t0, 3), "s"
+
+
+ * Python Numpy Array & Dictionary :
+   -----------------
+    -> A python dictionary can’t be read directly into an sklearn classification or regression algorithm; instead, it needs a numpy array or a list of lists (each element of the list (itself a list) is a data point, and the elements of the smaller list are the features of that point).
+
+
+ * List all the words in the TfIdf -> by calling `get_feature_names()` on it.
+
+
+ * GridSearchCV is a way of systematically working through multiple combinations of parameter tunes, cross-validating as it goes to determine which tune gives the best performance. The beauty is that it can work through many combinations in only a couple extra lines of code.

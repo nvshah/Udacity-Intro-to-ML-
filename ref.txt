@@ -1,0 +1,7 @@
+ref
+
+[K means visual] http://www.naftaliharris.com/blog/visualizing-k-means-clustering/
+
+[nltk] http://www.nltk.org/howto/stem.html
+
+[PCA Facial Recog] https://scikit-learn.org/stable/auto_examples/applications/plot_face_recognition.html

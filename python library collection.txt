@@ -1,0 +1,98 @@
+NOTE (BEWARE) :
+---
+ -> Python2 int/int is int
+            float/int is float
+    python3 int/int is float
+
+
+TIPS -> mostly functions in numpy and scikit learn expect the array to be 2-D atleast & not linear
+        i.e [1,2,3] => [[1,2,3]]
+   
+
+________________________________________________
+
+
+
+* sklearn.naive_bayes.GaussianNB                  [Naive Bayes Classifier]
+         .metrics.accuracy_score     			  [Accuracy]
+
+* sklearn.svm.SVC   //Support Vector Classifier
+
+* sklearn.tree   // Decision Tree 
+            \
+             .DecisionTreeClassifier()
+             		\
+             		 .feature_importances_   (once model is fitted)
+
+* sklearn.linear_model
+            \
+             .LinearRegression()
+             .Lasso
+
+* sklearn.cluster.kMeans
+                   \
+                    fit(), fit_predict()
+
+* sklearn.preprocessing
+             \
+              MinMaxScaler
+
+* sklearn.feature_extraction.text
+                               \
+                                CountVectorizer
+                                TfIdfVectorizer
+                                   \
+                                    .get_feature_names()
+
+* nltk.corpus
+        \
+         stopwords.words()
+
+* nltk.stem.snowball
+			 \
+			  SnowballStemmer()
+
+* sklearn.feature_selection
+             \
+              SelectPercentile
+              f_classif
+
+* sklearn.decomposition
+            \
+             PCA
+
+
+* sklearn.model_selection
+			\
+			 train_test_split
+
+* sklearn.metric
+            \
+             accuracy_score()
+             confusion_matrix()
+             classification_report()
+
+* sklearn.cross_validation
+             \
+              train_test_split()
+              kFold()
+
+
+* sklearn.grid_search
+			\
+			GridSearchCV
+  
+
+-------------
+
+* prettyPicture()   //used to get good visual
+
+* round()           // for rounding a value in python
+
+* joblib       // module for pickling file api
+
+
+-------------
+
+dict_obj.pop()   // to remove key-val from  dictionary
+

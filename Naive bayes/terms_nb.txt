@@ -1,0 +1,5 @@
+1. Prior Probability
+2. Posterior Probability
+3. Evidence (test)
+4. Normalization
+5. Joint Probability = dividing posterior with normalizer

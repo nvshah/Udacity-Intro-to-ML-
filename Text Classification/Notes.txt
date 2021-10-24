@@ -1,0 +1,40 @@
+Notes
+
+ref :-
+
+[nltk] http://www.nltk.org/howto/stem.html
+
+------------------
+
+* Bag Of Words :
+  ---------
+   - In sklearn bag of words is called as `Count Vectorizer`
+
+   .vocabulary._get()  // what feature number it is in my bag of words
+
+
+* NLTK :
+  ----
+   -> Get List of Stop Words fromm python package `NLTK`
+
+   -> corpus is just body of documents
+
+
+* Stemmer :
+  ------
+   -> make much cleaner vocabulary
+
+   -> nltk.stem.snowball.SnowballStemmer
+
+
+* Vectorizer :
+  -------- 
+
+    TfidVectorizer()   //  vectorize
+        \
+         args -> max_df = 0.5   
+
+    				// tells that if words occur more than 50% in documents don't use it as it do not contain lot of info as it is common
+
+         \
+          get_feature_names()   //return a list of all the words in the TfIdf 

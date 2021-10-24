@@ -1,0 +1,4 @@
+Information Gain & Entropy is imp factor in determining better feature contribution as well as 
+Decision making of branching down the tree
+
+i.e which variable to split on !!

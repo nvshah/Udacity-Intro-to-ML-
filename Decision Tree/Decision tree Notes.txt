@@ -1,0 +1,19 @@
+Decision tree Notes
+
+* sklearn :
+  -------
+   -> DecisionTreeClassifier
+   		\
+   		 .fit()     
+   		 .predict()
+
+   		 .feature_importances_  
+
+
+  feature_importances_
+   		 // to get a list of the relative importance of all the  features being used.
+
+
+ * List all the words in the TfIdf -> by calling `get_feature_names()` on it.
+
+

@@ -1,0 +1,12 @@
+Notest
+
+Outliers Removl EG - https://ksatola.github.io/ml-introduction/12_OutliersRemovalRegression.html
+
+https://www.jessicayung.com/removing-outliers-from-your-data/
+
+
+-------------
+
+-> even a single outlier can make a big difference on the regression result
+
+-> visualization is one of the most powerful tools for finding outliers!

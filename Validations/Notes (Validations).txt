@@ -1,0 +1,34 @@
+Notes (Validations)
+
+sklearn.cross_validations.train_test_split
+                         .kFold()
+
+       .grid_search.GridSearchCV
+
+------------------------------------------
+
+NOTE -> 
+
+# PLEASE NOTE: The import here changes depending on your version of sklearn
+from sklearn import cross_validation # for version 0.17
+# For version 0.18
+# from sklearn.model_selection import train_test_split
+
+sklearn.cross_validation
+	train_test_split() 
+
+	  :- random_state (param)
+	     ----
+	      -> random_state controls which points go into the training set and which are used for testing; 
+	      setting it to 42 means we know exactly which events are in which set, and can check the results you get
+
+
+-----------------
+
+GridSearchCV
+
+=> GridSearchCV is a way of systematically working through multiple combinations of parameter tunes, cross-validating as it goes to determine which tune gives the best performance. The beauty is that it can work through many combinations in only a couple extra lines of code.
+
+
+clf.fit()
+clf.best_params_

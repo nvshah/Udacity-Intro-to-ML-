@@ -1,0 +1,79 @@
+General Rules
+
+-> Parameter can tune the complexity of an algorithms
+-> Algorithms Complexity can also be driven by Feature Selection
+
+-> The more features the algorithms has available, the more potential there is for a complex fit.
+
+-> This goes to say that, when generating or augmenting a dataset, 
+   you should be exceptionally careful if your data are coming from different sources for different classes. It can easily lead to the type of bias or mistake
+
+----- Bias & Mistakes Introduction :-----
+
+-> the takeaway message is to be very careful about introducing features that come from   
+   different sources depending on the class! 
+   It’s a classic way to accidentally introduce biases and mistakes.
+
+-> even a single outlier can make a big difference on the regression result
+
+---------
+
+-> machine Learning is all about data-sets you have & how you find/approach answer/questions 
+   from that data
+---
+Outliers Tip :
+---
+-> As you can see, visualization is one of the most powerful tools for finding outliers!
+
+----------
+
+UnSupervised Learning -> Clustering, Dimensionality Reduction
+
+-> Apply Feature Scaling before performing the Clustering 
+
+Think -> If every data point has the same value for that feature!  
+         ### why would you rescale it?  Or even use it at all? 
+
+
+Feature Scaling -> (MinMaxScaler)
+  
+  => => Algo in which 2 dimensions affect the outcome will be affected by Re-Scaling
+
+  =? You need to use feature scaling when either or most of the features are very high 
+     in range of values
+
+-----
+
+Feature Selection Tool 
+
+Most Suitable -> SelectKBest
+              -> SelectPercentile
+
+------
+
+TfIdf -> raw data to processed features.
+
+
+--- IMP 
+
+A decision tree is classically an algorithm that can be easy to overfit; 
+one of the easiest ways to get an overfit decision tree is to use a small training set 
+and lots of features.
+
+=> A classic way to overfit an algorithm is by using lots of features and not a lot of training data.
+
+------ (PCA)
+
+Part of the beauty of PCA is that the data doesn't have to be perfectly 1D in order to find the principal axis!
+
+
+----- (Multi Class Classification Accuracy)
+
+=>  In a multiclass classification problem like this one (more than 2 labels to apply), accuracy is a less-intuitive metric than in the 2-class case. Instead, a popular metric is the F1 score.
+
+
+----- (Training Alonely)
+
+- Training on only 1 type of Event won't give you better to classify on another
+
+-> 

@@ -1,0 +1,11 @@
+* Metric to evaluate Regression :
+  -------------
+
+   1) r squared
+
+     -> lower score if fitted in overfitting manner.
+
+     -> max val = 1.  (the higher value is better the model (reg))
+
+
+    In sklearn-> `reg.score()`

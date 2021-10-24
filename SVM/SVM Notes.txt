@@ -1,0 +1,5 @@
+SVM Notes :
+
+ -> Type of Kernel Available in Sklearn Python :- {linear, poly, rbf, sigmoid}
+ 
+ -> SVM is one of algo that does work on good side for ignoring outliers.

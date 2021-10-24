@@ -1,0 +1,25 @@
+Notes Feature Selections
+
+* Univariate feature selection :
+  ----------------
+   -> treats each feature independently and asks how much power it gives you in classifying or regressing.
+
+   2 big in sklearn :-
+   -----
+    -> SelectPercentile & 
+    -> SelectKBest
+
+    = SelectPercentile selects the X% of features that are most powerful (where X is a parameter) and SelectKBest selects the K features that are most powerful (where K is a parameter).
+    
+
+    selector -> percentile based or K based
+
+ Best Eg :
+ -----
+  -> A clear candidate for feature reduction is text learning, since the data has such high dimension.
+
+
+* Identify Most Powerful features (Eg DT) :
+  ---------------
+
+   Take your (overfit) decision tree and use the feature_importances_ attribute to get a list of the relative importance of all the features being used. We suggest iterating through this list (it’s long, since this is text data) and only printing out the feature importance if it’s above some threshold (say, 0.2--remember, if all words were equally important, each one would give an importance of far less than 0.01). 

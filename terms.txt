@@ -1,0 +1,31 @@
+sklearn naive bayes
+sklearn accuracy
+
+parameters (hyperplane, hyperparameters)
+overfitting
+Entropy         (ImPurity)
+Information Gain
+
+Bias 
+Variance
+
+Slope 
+Intercept
+
+Noise 
+
+Residual Error (Error after fit a best possible line/fit)
+
+Dimensionality Reduction 
+Feature Scaling
+
+Fitting by Piece-Wise (Linear Regression)
+Pickle file (handy way to store & load python objects directly)
+
+
+
+
+--------------- Formulas -----------------
+
+
+Entropy = sum(-pi * log(pi, 2))

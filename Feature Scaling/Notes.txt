@@ -1,0 +1,6 @@
+* Feature Scaling :
+  -----------
+
+  => Algo in which 2 dimensions affect the outcome will be affected by Re-Scaling
+
+  

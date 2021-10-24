@@ -1,0 +1,44 @@
+Notes (PCA)
+ref :- 
+
+https://scikit-learn.org/stable/auto_examples/applications/plot_face_recognition.html
+
+
+=> Part of the beauty of PCA is that the data doesn't have to be perfectly 1D in order to find the principal axis!
+
+
+* Measurable vs Latent Features :
+  ------------------------
+
+    -> Association between Measurable and Latent Features
+
+
+-------
+
+sklearn -> decomposition.PCA
+
+  explained_variance_ratio_   // is the where eigen values resides.
+  components_                 // list of principal components
+
+
+  pca.fit()                // find the principal components from your features of data
+  pca.transform()   // (usese fit it founds) to transform data into these new features i.e 
+                        vector space.
+
+
+
+Eigen Faces :
+---------
+ -> PCA when applies to Facial Recongition
+
+------------------------------
+
+=> F1 Score starts to drop asa more PCs are accounted. 
+    (Higher F1-Score means classifier is doing better) 
+
+
+* Selecting # PCs :
+ -----
+  -> Trial & Error :- F1-Score & #components
+
+  NOTE -> Be careful of throwing out information before doing PCA
